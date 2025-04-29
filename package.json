@@ -2,6 +2,7 @@
   "name": "@./source",
   "version": "0.0.0",
   "license": "GPL v3",
+  "type": "module",
   "scripts": {},
   "private": true,
   "dependencies": {
