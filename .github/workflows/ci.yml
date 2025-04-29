@@ -11,8 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with:
-          node-version-file: .node-version
       - run: corepack enable
       - name: Install
         run: pnpm install --frozen-lockfile --prefer-offline
